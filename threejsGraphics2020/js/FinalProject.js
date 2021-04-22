@@ -1,7 +1,4 @@
-//
-//
-
-var camera, scene, ،material, renderer, light, controls;
+var camera, scene ,material, renderer, light, controls;
 var keyboard_set;
 // keyC, keyCprim, keyD, keyDprim, keyE, keyEprim;
 var raycaster, mouse = new THREE.Vector2();
@@ -251,10 +248,6 @@ function onDocumentMouseUp(event) {
     else if (Ddown) {keyD.rotation.x = 0; Ddown = false;}
     else if (Edown) keyE.rotation.x = 0;
  */  
-}
-function render() {
-    material.soundRange = control.soundRange;
-renderer.render(scene, camera);
 }
 
 function initGui() {
